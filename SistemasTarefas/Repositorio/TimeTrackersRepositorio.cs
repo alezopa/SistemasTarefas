@@ -95,15 +95,6 @@ namespace SistemasTarefas.Repositorio
                 valida = false;
             }
 
-        //var teste = times.Select(t => t.EndDate <= time.StartDate || t.StartDate >= time.EndDate).ToList();
-
-
-        //var teste = times.Select(t => t.StartDate <= time.StartDate  || t.EndDate >= time.EndDate).ToList();
-
-        //10 ao 12 dia   
-
-
-
             return valida;
         }
     }

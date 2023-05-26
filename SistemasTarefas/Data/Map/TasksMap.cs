@@ -12,9 +12,7 @@ namespace SistemasTarefas.Data.Map
             builder.Property(x => x.Name).IsRequired().HasMaxLength(250);
             builder.Property(x => x.Description).IsRequired(false);
             builder.Property(x => x.ProjectId).IsRequired();
-            //builder.Property(p => p.CreatedAt).IsRequired(false).HasColumnType("date");
-            //builder.Property(p => p.UpdateAt).IsRequired(false).HasColumnType("date");
-            //builder.Property(p => p.DeleteAt).IsRequired(false).HasColumnType("date");
+
 
         }
     }
